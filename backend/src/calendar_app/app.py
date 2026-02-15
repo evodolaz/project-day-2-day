@@ -1,3 +1,9 @@
+#app.py
+# This does the initiliazation and execution of the application
+# Uses Flask for it all. 
+# Important note: Serves as the primary backend service for the the application
+# Delivers frontend pages as well.
+
 from flask import Flask, render_template
 
 def create_app():
